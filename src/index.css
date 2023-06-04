@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+:root {
+  --primary: #12bca2;
+  --secondary: #6d15df;
+  --optional : #90B77D;
+}
+h1,h2,h3 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  font-family: 'Poppins';
+  background: #f2f2f2;
+}
+nav {
+  background: var(--optional);
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  height: 70px;
+
+}
+nav a {
+  color: #f2f2f2;
+  margin: 10px;
+  display: inline-block;
+  color:rgba(105, 80, 17, 0.916);
+}
+nav h1 {
+  color: #fff;
+}
+.page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.smoothie-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  direction: rtl;
+}
+.smoothie-card {
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+  direction: rtl;
+}
+.smoothie-card .rating {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: var(--secondary);
+  color: #fff;
+  border-radius: 6px;
+  width: 40px;
+  height: 0;
+  padding: 20px 0;
+  line-height: 0px;
+  text-align: center;
+}
+form {
+  background: #fff;
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+form input, form select {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 10px 0 20px 0;
+  direction: rtl;
+  font-weight: bold;
+}
+form button {
+  background: var(--primary);
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+.smoothie-card i {
+  color: rgb(243, 246, 24);
+  margin-left: 10px;
+  font-size: 1.2em;
+  padding: 6px;
+  background: rgb(82, 228, 80);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: 30px;
+ 
+}
+.smoothie-card2 i {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  color: #bbb;
+  margin-left: 10px;
+  font-size: 1.2em;
+  padding: 6px;
+  background: #eee;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color:rgb(244, 108, 108);
+}
+.img{
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  
+}
